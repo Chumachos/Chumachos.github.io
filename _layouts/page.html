@@ -1,18 +1,17 @@
 ---
 layout: default
 ---
-<div class="wrapper">
-<div class="page">
+<article id="main">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
   </header>
 
-  {% include page_divider.html %}
+  <section class="wrapper style5">
+    <div class="inner">
+      {{ content }}
+    </div>
+  </section>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
-</div>
+</article>
