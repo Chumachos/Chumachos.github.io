@@ -22,4 +22,4 @@ modified: 2016-04-13
 
 <br>
 
-<div class="fb-comments" data-href="https://www.facebook.com/photo.php?fbid=426800044160287" data-width="650" data-numposts="3" data-colorscheme="light"></div>
+<!--<div class="fb-comments" data-href="https://www.facebook.com/photo.php?fbid=426800044160287" data-width="650" data-numposts="3" data-colorscheme="light"></div>-->
