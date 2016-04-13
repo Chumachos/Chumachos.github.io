@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The Ten Commandments of Egoless Programming
-description: "The Ten Commandments of Egoless Programming"
-modified: 2015-06-08
+title: My name is Carlos Hormigo
+description: "My name is Carlos Hormigo"
+modified: 2016-04-13
 ---
 
 <img src="http://i.imgur.com/nQFuJBO.jpg">
