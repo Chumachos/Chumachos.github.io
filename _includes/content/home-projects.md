@@ -1,9 +1,8 @@
 
-# Here's what I've been working on
+# Actualment estic treballant en els següents projectes
 
-* ### Investigating the connection between Jekyll and Hyde
-    * I'm on a quest to investigate the identity of Hyde, as I fear that he is blackmailing Jekyll. 
+* ### Construir una pàgina web
+    * Tot i que no està gaire avançada, és un projecte de futur
 
-
-* ### [(Another Sample Project)](http://utterson.alidcastano.com/)
-    * Just working on changing the world, no big deal.
+* ### Publicitat d'un bon joc: [slither](slither.io/)
+    * Bones tardes entretingudes
