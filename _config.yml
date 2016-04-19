@@ -1,25 +1,39 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:               Utterson
+tagline:             The Jekyll Companion
+url:                 http://utterson.alidcastano.com
+analytics_id:        UA-53335201-2
 
+# About/contact
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:                Alid Castano
+  email:               "" # email here 
+  avatar:              img/avatar.jpg 
+  profile-pic:         img/profile-pic.jpg
 
-paginate:         5
 
-# Custom vars
-version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+# Build settings
+markdown:            kramdown
+permalink:           /:title
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: "" 
+      type: "posts" 
+    values:
+      layout: "post"
+      author: Gabriel Utterson
+  -
+    scope:
+      path: "" 
+      type: "pages" 
+    values:
+      layout: "page"
+      

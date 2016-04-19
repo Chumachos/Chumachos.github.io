@@ -1,118 +1,63 @@
-# Hyde
+# Utterson
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. This lawyer is Mr. Gabriel John Utterson, a loyal friend of Jekyll's (and, soon enough, a loyal friend of yours, as well).
 
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
-
-
-## Contents
-
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
-
-
-## Usage
-
-Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
-
-
-## Options
-
-Hyde includes some customizable options, typically applied via classes on the `<body>` element.
-
-
-### Sidebar menu
-
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
-
-```
 ---
-layout: page
-title: About
+
+Utterson was built on top of [Jekyll](http://jekyllrb.com), a static site generator, and  [Poole](https://github.com/poole/poole), a vanilla Jekyll install. It was designed and developed by [@alidcastano](https://twitter.com/alidcastano), to provide a minimal and unassuming theme, focused on what matters: you and your content.
+
+[See the theme in action](http://utterson.alidcastano.com/).
+
+<a href="http://utterson.alidcastano.com/">
+<img src="https://cloud.githubusercontent.com/assets/11031952/14027042/22c27794-f1cc-11e5-8a25-9bab1e7920f2.png" atl="home page">
+</a>
+*A minimal home page.*
+
+## Features: 
+
+Utterson provides a fully-functional setup:
+
+* **Home Page with according navigation** makes your site is easy to navigate.
+* **Sliding email subscription form** lets you can build your audience in a an unobtrusive manner. 
+* **Simple Contact Form** with [Formspree](http://www.formspree.io/), provides a way for your your readers easily reach you by email, without you having to reveal personal information. 
+* **Scrolling navigation bar** for posts lets readers can easily go back to your home page. 
+* **Fade-in footer** allows you to have one last call to action at the bottom of each post, without getting in the way of your content. 
+
+Also, building off Poole's vanilla install:
+
+* **A holistic Jekyll setup** (Layouts, config, [archive page](/archive), [404]({{ site.baseurl }}/404.html), example pages and posts.)
+* **Easily scalable** text and component sizing with `rem` units in the CSS.
+* **Mobile Friendly Design** so that your site can be accessed on any device.
+
+<a href="http://utterson.alidcastano.com/I-love-Jekyll">
+<img src="https://cloud.githubusercontent.com/assets/11031952/14027371/b26c503a-f1cd-11e5-9a44-6b8edc8e41cb.png"  atl="posts page">
+</a>
+*Content focused pages, with a sliding email subscription form.*
+
+## Getting Started 
+
+**Make it yours in under 20 minutes.**
+
+Three simple steps:
+
+1. Edit the <code>_config.yml</code> and put your own information. 
+2. Edit the markdown files in <code>_includes/content</code> and talk about yourself. 
+3. Replace the images in <code>/img</code> directory with your own.
+
+Optionally: 
+
+* You can change default variables in <code>_sass/variables</code> (i.e. if to change nav link colors). 
+* If you don't want to use Formspree for your subscription form, you can change that in <code>_includes/email-form.html</code>.
+
 ---
-```
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
+## Next Steps... 
 
+- Add Social Media Icons 
+- Add hover feature for footnotes 
 
-### Sticky sidebar content
+---
 
-By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disable this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
+### License 
+Open sourced under the[MIT license](LICENSE.md).
 
-```html
-<!-- Default sidebar -->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
-</div>
-
-<!-- Modified sidebar -->
-<div class="sidebar">
-  <div class="container">
-    ...
-  </div>
-</div>
-```
-
-
-### Themes
-
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
-
-![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
-
-There are eight themes available at this time.
-
-![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
-
-To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
-
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
-
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
-
-### Reverse layout
-
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
-
-Hyde's page orientation can be reversed with a single class.
-
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
-
-
-## Development
-
-Hyde has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
-
-## Author
-
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
