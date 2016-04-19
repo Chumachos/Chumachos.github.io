@@ -1,13 +1,13 @@
 # Setup
-title:               Utterson
-tagline:             The Jekyll Companion
-url:                 http://utterson.alidcastano.com
+title:               Home
+tagline:             Pàgina principal
+url:                 http://chumachos.github.io
 analytics_id:        UA-53335201-2
 
 # About/contact
 author:
-  name:                Alid Castano
-  email:               "" # email here 
+  name:                Carlos Hormigo
+  email:               "carloshormigo35@gmail.com" # email here 
   avatar:              img/avatar.jpg 
   profile-pic:         img/profile-pic.jpg
 
@@ -29,7 +29,7 @@ defaults:
       type: "posts" 
     values:
       layout: "post"
-      author: Gabriel Utterson
+      author: Carlos Hormigo
   -
     scope:
       path: "" 
