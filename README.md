@@ -1,74 +1,29 @@
-<h2>How to use your own domain for github page?</h2>
-<a href="https://www.youtube.com/watch?v=sTBY0D4gLg4" target="_blank">View my tutorials video here!</a>
-<br><br><br>
-<h2>How to use this template?</h2>
-You can fork this project to your own project. <br>
-Ex: fork and rename this repository to "yourname", you'll get the following address: yourusername.github.io/yourname
-<br>Or clone it to your local (by using gitGUI or from cmd line), modify something and push from local to your account. <br>
-<h2>How to change my title and something else? </h2>
-Go to <b>_config.yml</b> file and change to what you want, you can add some social account to your profile view.
+# So Simple Theme
 
-<h2>How to create new posts ?</h2>
-create new file in <b>_posts</b> folder, the name of the file should be begin with "yyyy-mm-dd" and separated by "-" (dash) and end with ".md" (markdown format). Ex: "2015-05-12-documents.md" <br>
-In the beginning of the content, copy and paste following:
+Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
 
-```
---- 
-layout: post
-title:
-description: "abcd"
-modified: 2014-12-23
-tags: [abc, def]
+## Notable features:
+
+* Compatible with Jekyll 3 and GitHub Pages.
+* Responsive templates. Looks good on mobile, tablet, and desktop devices.
+* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
+* Minimal embellishments and subtle animations.
+* Optional large feature images for posts and pages.
+* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
+* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
+* Support for Disqus Comments
+
+![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
+
+See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
+
 ---
-```
 
-<br>
-change your title, tag, modified date time...
+## Getting Started
 
-<br>
-<h2>How to post code?</h2>
-use: <br>
+So Simple takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
 
-```
-{% highlight css %}
-{% endhighlight %}
-```
+To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
 
-<br>
-you can change "css" to some other languages such as cpp, java, html...
-<br>
-<br>
-<h2>How to add or change menu on the left side? </h2>
-Go to <b> _includes/navigation.html </b>
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-<h2>How to change color or anything else in the fixed navigation bar at the top? </h2>
-Go to <b>_includes/head.html</b>
-
-<h2>How about the background color?</h2>
-Go to <b>_sass/_page.scss</b>
-
-
-
-<br>
-<br>
-You have some problems and need more information? View my contact details below:
-
-
-> Name: Nguyen Minh Huy (David Ng)<br>
-> &#128231;<b>  n@mhuy.xyz</b><br>
-> Languages: Vietnamese, American English<br>
-> University: Studies iT at HUFLIT (2013-2017). Ho Chi Minh city. Vietnam<br>
-
-
-<hr>
-<h4> My profiles/other page: </h4>
-<br>
-<a href="https://twitter.com/david15894" class="btn btn-info">Twitter</a>
-<a href="https://plus.google.com/u/0/+HuyNguyenMinhStormChaser" class="btn btn-danger">G+</a>
-<a href="http://daynhauhoc.com/users/david15894" class="btn btn-success">DNH</a>
-<a href="http://www.facebook.com/david15894" class="btn btn-info">Facebook</a>
-<a href="https://vn.linkedin.com/in/minhhuy150894" class="btn btn-warning">LinkedIn</a>
-<br>
-<hr>
-<h4>Facebook Update:</h4>
-<a href="https://www.facebook.com/david15894" title="Nguy&#x1ec5;n Minh Huy" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" target="_TOP"></a><span style="font-family: &#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;font-size: 11px;line-height: 16px;font-variant: normal;font-style: normal;font-weight: normal;color: #555555;text-decoration: none;">&nbsp;&nbsp;</span><br /><a href="https://www.facebook.com/david15894" title="Nguy&#x1ec5;n Minh Huy" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/100004908847676.395.501017303.png" style="border: 0px;" alt="" /></a>
