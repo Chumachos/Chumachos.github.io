@@ -1,5 +1,5 @@
 
 # [Introducció a Carlos](/)
 
-Estudiant ASIX-2, pàgina web del mòdul 9.
+Pàgina web per al mòdul 9
 
