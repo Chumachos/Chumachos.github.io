@@ -70,7 +70,10 @@ footer: none
     <li class="tab-header-and-content">
       <a href="#" class="tab-link">Practica</a>
       <div class="tab-content">
-        {% include content/home-practica.md %}
+        {% capture home-projects %}
+          {% include content/home-practica.md %}
+        {% endcapture %}
+        {{ home-practica | markdownify }}
       </div>
     </li>
   </ul>
