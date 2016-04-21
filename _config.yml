@@ -1,39 +1,19 @@
-# Setup
-title:               Home
-tagline:             Pàgina principal
-url:                 http://chumachos.github.io
-analytics_id:        UA-53335201-2
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# About/contact
-author:
-  name:                Carlos Hormigo
-  email:               "carloshormigo35@gmail.com" # email here 
-  avatar:              img/avatar.jpg 
-  profile-pic:         img/profile-pic.jpg
-
-
+# Site settings
+title: Home
+email: carloshormigo35@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+ Practica de CMS
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: HSCarlos35
+github_username:  Chumachos
 
 # Build settings
-markdown:            kramdown
-permalink:           /:title
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-
-# Default settings
-defaults:
-  -
-    scope:
-      path: "" 
-      type: "posts" 
-    values:
-      layout: "post"
-      author: Carlos Hormigo
-  -
-    scope:
-      path: "" 
-      type: "pages" 
-    values:
-      layout: "page"
-      
+markdown: kramdown
