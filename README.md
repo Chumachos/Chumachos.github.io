@@ -1,11 +1,11 @@
 # Qui soc?
 
-**Nom**: Carlos Hormigo
-**Identificador**: isx53866409
-**Data**: 21/04/2016
-**Mòdul**: m09
-**UF**: 3
-**Enunciat**: Has de fer un projecte de publicació amb Jekyll dels documents arxivats en el fitxer commandline.tar.bz2.
+1. **Nom**: Carlos Hormigo
+2. **Identificador**: isx53866409
+3. **Data**: 21/04/2016
+4. **Mòdul**: m09
+5. **UF**: 3
+6. **Enunciat**: Has de fer un projecte de publicació amb Jekyll dels documents arxivats en el fitxer commandline.tar.bz2.
 
 * Organitza’l com vulguis, però no posant els documents com a posts, ja que clarament no ho son.
 * Una bona opció seria fer una col·lecció, però un simple directori amb els documents també ha de funcionar.
