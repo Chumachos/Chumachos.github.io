@@ -1,5 +1,5 @@
 # Carlos Hormigo 
 
-Nascut a Sant Cugat, és un estudiant d'informàtica.
+Administrador informático (sys admin)
 
-Sota la seva identitat, s'oculta aquesta meravellosa pàgina web, encara en construcció.
+*Página web en construcción*

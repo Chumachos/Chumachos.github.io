@@ -18,7 +18,7 @@ footer: none
 
   <ul class="accordion-tabs">
     <li class="tab-header-and-content">
-      <a href="#" id="trigger-form" class="tab-aside-link is-active">Subscripció</a>
+      <a href="#" id="trigger-form" class="tab-aside-link is-active">Subscripción</a>
       <div class="tab-aside-content">
       <!-- no tab content, filler div for initial borders --> 
       </div>
@@ -27,7 +27,7 @@ footer: none
     <li class="tab-header-and-content">
       <a href="#" class="tab-link">Blog</a>
       <div class="tab-content featured-posts">
-          <h2> Newest Articles </h2>
+          <h2> Artículos nuevos </h2>
           {% for post in site.posts limit: 5 %}
           <article class="post">
             <h3 class="post-title">
@@ -37,12 +37,12 @@ footer: none
             </h3>
           </article>
           {% endfor %}
-          <a href="/archives" class="see-archives">Mira tots els posts</a>
+          <a href="/archives" class="see-archives">Todos los posts</a>
       </div>
     </li>
 
     <li class="tab-header-and-content">
-      <a href="#" class="tab-link">Projectes</a>
+      <a href="#" class="tab-link">Proyectos</a>
       <div class="tab-content featured-projects"> 
         {% capture home-projects %}
           {% include content/home-projects.md %}
@@ -52,7 +52,7 @@ footer: none
     </li>
 
     <li class="tab-header-and-content">
-      <a href="#" class="tab-link">Sobre mi</a>
+      <a href="#" class="tab-link">Sobre mí</a>
       <div class="tab-content">
         {% capture home-about %}{% include content/home-about.md %}{% endcapture %}
         {{ home-about | markdownify }}
@@ -61,7 +61,7 @@ footer: none
 
 
     <li class="tab-header-and-content">
-      <a href="#" class="tab-link">Contacte</a>
+      <a href="#" class="tab-link">Contacto</a>
       <div class="tab-content">
         {% include contact-form.html %}
       </div>

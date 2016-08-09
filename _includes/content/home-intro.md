@@ -1,5 +1,4 @@
 
-# [I'm Chumachos](/)
+# [Soy Chumachos](/)
 
-Pàgina web per al mòdul 9 (per ara)
-
+También conocido como HSCarlos35
